@@ -5,7 +5,7 @@ import pickle
 # Load Model Files
 model = pickle.load(open("knn_model.pkl", "rb"))
 scaler = pickle.load(open("knn_scaler.pkl", "rb"))
-label_encoder = pickle.load(open("label_encoder.pkl", "rb"))
+label_encoder = pickle.load(open("label_encoder (1).pkl", "rb"))
 
 st.set_page_config(
     page_title="Mental Health Risk Predictor",
